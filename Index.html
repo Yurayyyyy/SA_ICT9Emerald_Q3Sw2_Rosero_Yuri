@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Movie Reviews</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('red.png') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+        }
+        #header {
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.7);
+            text-align: center;
+        }
+        #container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .navigation {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
+        .navigation a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        .movie-container {
+            display: flex;
+            margin-bottom: 20px;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .movie-poster {
+            width: 350px;
+            margin-right: 20px;
+        }
+        .movie-details {
+            flex-grow: 1;
+            padding: 20px;
+        }
+        h2 {
+            color: #e50914;
+            margin-top: 0;
+        }
+        p {
+            line-height: 1.5;
+        }
+        .rating {
+            font-size: 1.2em;
+            color: #e50914;
+            margin-top: 10px;
+        }
+        #footer {
+            text-align: center;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.7);
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <img src="Netflixlogo.png" alt="Netflix Logo" style="max-width: 40px;">
+    </div>
+    <div id="container">
+        <div class="navigation">
+            <a href="#">Movies</a>
+            <a href="#">Recently Added</a>
+            <a href="#">Reviews</a>
+        </div>
+
+        <!-- Search Bar -->
+        <div id="search-bar">
+            <input type="text" placeholder="Search...">
+            <button type="submit">Search</button>
+        </div>
+
+        <!-- Movie 1 -->
+        <div class="movie-container">
+            <img class="movie-poster" src="enola.jpg" alt="Enola Holmes">
+            <div class="movie-details">
+                <h2>Enola Holmes</h2>
+                <p>While searching for her missing mother, intrepid teen Enola Holmes uses her sleuthing skills to outsmart big brother Sherlock and help a runaway lord.</p>
+                <h3>Cast and Directors</h3>
+                <p>Cast: Louis Partridge, Millie Bobby Brown, Henry Cavill, and Sam Claflin, Helena Bonham Carter<br> Director: Harry Bradbeer </p>
+                
+                <div id="review">
+                    <h3>Movie Review</h3>
+                    <p> Crystal Llamado: I love this movie! kaso lang sabi ni Eshaan panget daw >:( </p>
+                </div>
+
+                <div class="rating">
+                    <h3>Rating</h3>
+                    <p>★★★★★</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Movie 2 -->
+         <div class="movie-container">
+            <img class="movie-poster" src="Genie.jpg" alt=" Bratz Genie Magic ">
+            <div class="movie-details">
+                <h2> Bratz Genie Magic</h2>
+                <p> The Bratz girls think it's their lucky day when they make friends with a teenaged genie named Katia. She has magical powers and, best of all, she can grant wishes! But things get wild and crazy when a secret is revealed about the genie girl that thrusts the Bratz into a world of intrigue and adventure.</p>
+                <h3>Cast and Directors</h3>
+                <p>Cast: Dionne Quan, Soleil Moon Frye, Tia Mowry, and Olivia Hack<br> Director: David Mucci Fassett, Cree Summer, and Mike Young </p>
+                
+                <div id="review">
+                    <h3>Movie Review</h3>
+                    <p> Yuri Rosero: I was traumatized when I first watched this as a child, but now that i've rewatched it, I now love this movie! </p>
+                </div>
+
+                <div class="rating">
+                    <h3>Rating</h3>
+                    <p>★★★★★</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Movie 3 -->
+         <div class="movie-container">
+            <img class="movie-poster" src="Bratz.jpg" alt=" Bratz Rock Angelz">
+            <div class="movie-details">
+                <h2>Bratz Rock Angelz</h2>
+                <p>The Girls with a Passion for Fashion, Yasmin, Cloe, Sasha, and Jade, are takin' self-expression to a whole new level as they start their very own stylin' teen magazine! Their first assignment: fly to exciting London and scoop a scorchin' rock concert!</p>
+                <h3>Cast and Directors</h3>
+                <p>Cast: Olivia Hack, Soleil Moon Frye, Tia Mowry, Dionne Quan <br>Director: David Mucci Fassett </p>
+                
+                <div id="review">
+                    <h3>Movie Review</h3>
+                    <p> Yuri Rosero: THIS MOVIE IS EVERYTHING I NEEDED IN MY LIFE. I LOVE BRATZ OMGGG</p>
+                </div>
+
+                <div class="rating">
+                    <h3>Rating</h3>
+                    <p>★★★★★</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="footer">
+        <p>&copy; 2024 Netflix Movie Reviews</p>
+    </div>
+</body>
+</html>
